@@ -1,0 +1,43 @@
+*{
+    font-family: Arial;
+}
+
+form{
+    position: absolute;   
+    top: 40%;
+    left: 40%;
+}
+
+.cronometro{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+button {
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+.pause{
+    margin: 20px;
+}
